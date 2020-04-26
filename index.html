@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Project 1</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<form action="#" onsubmit="submitForm(this)" >
+	<fieldset>
+		<legend>Event CountDown:</legend>
+		<div class="input-field">
+		<label for="event_name">Event Name<span>*</span>:</label>
+		<input type="text" name="event_name" class="required">
+		</div>
+		<div class="clr"></div>
+		<div class="input-field">
+		<label for="event_date">Event Date<span>*</span>:</label>
+		<input type="date" name="event_date" class="required">
+		</div>
+		<div class="clr"></div>
+		<div class="input-field">
+		<label for="event_time">Event Time:</label>
+		<input type="time" name="event_time">
+		</div>
+		<div class="clr"></div>
+		<div class="input-field">
+		<input type="submit" name="submit" value="Start">
+		</div>
+	</fieldset>
+</form>
+<div style="display: inline-block;margin-top: 10px">
+	<button id="getEvents" onclick="getEvents();">Get All Events</button>
+	<button id="removeAllEvents" onclick="removeAllEvents();">Remove All Events</button>
+</div>
+<div id="eventDetails">
+	
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</html>
