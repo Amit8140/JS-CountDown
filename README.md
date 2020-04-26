@@ -1,2 +1,2 @@
 # JS-CountDown
-Event countdown using only JS,HTMl and CSS
+Event countdown using only JS,HTML and CSS
